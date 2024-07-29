@@ -437,6 +437,7 @@ export default function Product() {
                                     value={option.value}
                                     control={<Radio />}
                                     label={option.label}
+                                    key={option.value}
                                     onChange={(e) =>
                                       handleRadioFilterChange(e, section.id)
                                     }

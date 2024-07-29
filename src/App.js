@@ -18,7 +18,7 @@ function App() {
     if (jwt) {
       dispatch(getUser(jwt));
     }
-  }, [dispatch, jwt]);
+  }, [jwt]);
   return (
     <div className="">
       <Routes>
